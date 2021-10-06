@@ -9,4 +9,4 @@ class joystick:
     return self.PCF.read(1)
 
   def getY(self):
-    return self.PCF.real(2)
+    return self.PCF.read(2)
