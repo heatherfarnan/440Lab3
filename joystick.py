@@ -6,7 +6,7 @@ class joystick:
     self.PCF = PCF8591(address)
 
   def getX(self):
-    return self.PCF.read(1)
+    return self.PCF.read(0)
 
   def getY(self):
-    return self.PCF.read(2)
+    return self.PCF.read(1)
